@@ -8,7 +8,7 @@
   </head>
   <body>
     <dialog class="js-dialog">
-      <p>
+      <p class="js-dialog__text">
         Welcome to play, it's just my small web to improve coding skill so
         hopefully 19 years old can do something gigantic project in the future
       </p>
@@ -18,19 +18,13 @@
       <p class="js-counter">Counter</p>
       <p class="js-showNumber showNumber">0</p>
       <div class="buttons">
-        <button
-          class="js-increase-button increase-button"
-          onclick="incrementCount()"
-        >
+        <button class="js-increase-button button" onclick="incrementCount()">
           increase
         </button>
-        <button class="js-reset-button reset-button" onclick="resetNumber()">
+        <button class="js-reset-button button" onclick="resetNumber()">
           reset
         </button>
-        <button
-          class="js-decrease-button decrease-button"
-          onclick="decrementCount()"
-        >
+        <button class="js-decrease-button button" onclick="decrementCount()">
           decrease
         </button>
       </div>
